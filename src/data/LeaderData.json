@@ -1,0 +1,120 @@
+
+
+
+{
+    "COCHAIRS": [
+        {
+            "id" : 1,
+            "name":"Chandrajit Banerjee",
+            "designation":"Director General",
+            "company":"Confederation of Indian Industry (CII) ™",
+            "pic":"https://evolvesv.org/images/evolv/leader-ship/Chandrajit1.png",
+            "linkedlink":"https://in.linkedin.com/in/rajan-navani"
+
+        },
+        {
+            "id" : 2,
+            "name":"Ram K Reddy",
+            "designation":"CEO",
+            "company":"StrategyR™",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/img_01.jpg",
+            "linkedlink":"https://www.linkedin.com/in/ramreddyk"
+
+        },
+        {
+            "id" : 3,
+            "name":"Rajan Navani",
+            "designation":"Founder & CEO ",
+            "company":"JetSynthesys",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/img_02.jpg",
+            "linkedlink":"https://in.linkedin.com/in/rajan-navani"
+
+        }
+
+    ],
+
+    "ADVISORYCOUNCIL": [
+        {
+            "id" : 1,
+            "name":"Suja Chandrasekharan",
+            "designation":"Member, Board of Directors ",
+            "Board":"Advisor - Safe Security",
+            "company":"Cardinal Health, American Eagle Outfitters, Inc., Blume Global, Agendia ",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/Suja_Chandrasekharan.jpg",
+            "linkedlink":"https://www.linkedin.com/in/sujachandra-businessleader/"
+        },
+
+        {
+            "id" : 2,
+            "name":"Rashmi Kumar",
+            "designation":"SVP and Global CIO",
+            "company":"Medtronic",
+            "pic":"https://evolvesv.org/images/evolv/leader-ship/Rashmi_Kumar.jpg",
+            "linkedlink":"https://www.linkedin.com/in/rashmi-kumar-136b47/"
+        },
+
+        {
+            "id" : 3,
+            "name":"Garima Kapoor",
+            "designation":"Co-Founder & Chief Operating Officer",
+            "company":"Minio, Inc.",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/garima_kapoor.jpg",
+            "linkedlink":"https://www.linkedin.com/in/garimakap/"
+        },
+        {
+            "id" : 4,
+            "name":"Padmaja Dasari",
+            "designation":"Head of Information Technology and Information Systems",
+            "company":"Nextdoor",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/Padmaja.jpg",
+            "linkedlink":"https://www.linkedin.com/in/padmaja-dasari-93a95612/"
+        },
+        {
+            "id" : 5,
+            "name":"Preeti Rathi",
+            "designation":"General Partner",
+            "company":"Icon Ventures",
+            "pic":"https://evolvesv.org/images/evolv/leader-ship/Preeti_Rathi.jpg",
+            "linkedlink":"https://www.linkedin.com/in/prathi/"
+        },
+
+        {
+            "id" : 6,
+            "name":"Sudha Mahajan",
+            "designation":"General Manager and Partner- Azure Core",
+            "company":"Microsoft ",
+            
+            "pic":"https://evolvesv.org/images/evolv/leader-ship/Sudha_Mahajan.jpg",
+            "linkedlink":"https://www.linkedin.com/in/sudha-mahajan-9944471/"
+        },
+
+        {
+            "id" : 7,
+            "name":"Sumant Mandal",
+            "designation":"Co-Founder & Managing Partner",
+            "company":"March Capital",
+            "Board":"Board Member - Uniphore, Extend, SparkCognition,  Xage Security",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/Sumant_Mandal.jpg",
+            "linkedlink":"https://www.linkedin.com/in/sumantmandal/"
+        },
+        {
+            "id" : 8,
+            "name":"Chandar Pathabhiram ",
+            "designation":"Chief Marketing Officer",
+            "company":"Coupa Software",
+            "Board":"Board Member - Donnelley Financial Solutions, Freshworks, Blueshift, Gainsight",
+            "pic":"https://pixel4inch.github.io/evolv/images/evolv/leader-ship/Chandar_Pattabhiram.jpg",
+            "linkedlink":"https://www.linkedin.com/in/chandarp/"
+        },
+        {
+            "id" : 9,
+            "name":"Gary Gauba ",
+            "designation":"Founder &amp; Exec Chairman, TruU",
+            "company":"The CXO Fund",
+            "Board":"Board Member - Donnelley Financial Solutions, Freshworks, Blueshift, Gainsight",
+            "pic":"https://evolvesv.org/images/evolv/INFLUENCERS_PROMINENT/Gary_gauba.jpg",
+            "linkedlink":"https://www.linkedin.com/in/garygauba/?challengeId=AQFxQsgsEEitRAAAAYoNsJAwsbGOerjEvbL-C5-G2okztnyN1vT6t5DRBbvkqCam26PKLogm8k8HY-Ld5-k3pfOiYuZVCvhDGg&submissionId=cb8d1341-63c7-7c17-9c2a-d2d20c23ad66&challengeSource=AgEWMctgyXUGywAAAYoNsR2QGw14sDQMgno29JJBdjYswm9sUpbWmyU1FI4BEVg&challegeType=AgHz_ixtYoEP-wAAAYoNsR2UToL3KCAisKAd2MtG14aHleurnR-rgs8&memberId=AgFaQI40hgXYmAAAAYoNsR2Xm-TPQHy_gD-4TAEbIu3vXZg&recognizeDevice=AgELoa9K8ikJsQAAAYoNsR2a0RNFCb_XyFi2GTQ1EqtbcuU0v7ez"
+        }
+    ]
+}
+

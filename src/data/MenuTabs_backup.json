@@ -1,0 +1,115 @@
+{
+    "Header": [
+      {
+        "id":"1",
+        "Tab": "About",
+        "link": "",
+        "SubTab": [
+          {
+            "id":"01",
+            "subtabs": "PROFILE",
+            "sublinks": "/profile"
+          },
+          {
+            "id":"02",
+            "subtabs": "LEADERSHIP",
+            "sublinks": "/leader"
+          }
+        ]
+      },
+      {
+        "id":"2",
+        "Tab": "Prgorams",
+        "link": "",
+        "SubTab": [
+          {
+            "id":"21",
+            "subtabs": "INNOVATOR SYNERGIES",
+            "sublinks": "/innovatorSynergies"
+          },
+          {
+            "id":"22",
+            "subtabs": "SUSTAINABILITY",
+            "sublinks": "/stainability"
+          },
+          {
+            "id":"23",
+            "subtabs": "INDIAN INFLUENCER",
+            "sublinks": "/indianinfluencer"
+          },
+          {
+            "id":"24",
+            "subtabs": "DIVERSITY EQUITY INCLUSION",
+            "sublinks": "/diversityequityinclusion"
+          }
+        ]
+      },
+      {
+        "id":"3",
+        "Tab": "Calenders",
+        "link": "/calender"
+      },
+      {
+        "id":"4",
+        "Tab": "Recongnitions",
+        "link": "/recognitions"
+      },
+      {
+        "id":"5",
+        "Tab": "Membership",
+        "link": "/memberShip    "
+      },
+      {
+        "id":"6",
+        "Tab": "Insider",
+        "link": "/insider"
+      },
+      {
+        "id":"7",
+        "Tab": "LogIn",
+        "link": "/login"
+      }
+    ],
+    "Footer": [
+      {
+        "id":"8",
+        "Tab": "Data Dashboard",
+        "link": "/datadashboard"
+      },
+      {
+        "id":"9",
+        "Tab": "Volunteer",
+        "link": "/volunteer"
+      },
+      {
+        "id":"10",
+        "Tab": "Sponsors",
+        "link": "/sponsors"
+      },
+      {
+        "id":"11",
+        "Tab": "Media",
+        "link": "/media"
+      },
+      {
+        "id":"12",
+        "Tab": "Privacy Policy",
+        "link": "/privacypolicy"
+      },
+      {
+        "id":"13",
+        "Tab": "Service Agreement",
+        "link": "/serviceaggrement"
+      },
+      {
+        "id":"14",
+        "Tab": "Partners",
+        "link": "/partner"
+      },
+      {
+        "id":"15",
+        "Tab": "Contact",
+        "link": "/contact"
+      }
+    ]
+  }

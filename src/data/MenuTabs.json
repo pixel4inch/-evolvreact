@@ -1,0 +1,106 @@
+{
+    "Header": [
+      {
+        "id":"1",
+        "Tab": "About",
+        "link": "/profile"
+      },
+
+      {
+        "id":"2",
+        "Tab": "INITIATIVES",
+        "link": "/initiatives"
+      },
+
+      {
+        "id":"3",
+        "Tab": "Data",
+        "link": "/data"
+      },
+
+      {
+        "id":"3",
+        "Tab": "Awards",
+        "link": "/awards"
+      },
+      
+      
+      {
+        "id":"3",
+        "Tab": "EVENTS",
+        "link": "/calender"
+      },
+
+      
+      {
+        "id":"4",
+        "Tab": "PARTNERS ",
+        "link": "",
+        "SubTab": [
+          {
+            "id":"01",
+            "subtabs": "ANCHORS",
+            "sublinks": "/anchors"
+          },
+          {
+            "id":"02",
+            "subtabs": "PARTNERS",
+            "sublinks": "/partners"
+          }
+        ]
+      },
+      
+      {
+        "id":"6",
+        "Tab":"GALLERY",
+        "link": "/gallery"
+      },
+      {
+        "id":"7",
+        "Tab": "LogIn",
+        "link": "/login"
+      }
+    ],
+    "Footer": [
+      {
+        "id":"8",
+        "Tab": "Data Dashboard",
+        "link": "/datadashboard"
+      },
+      {
+        "id":"9",
+        "Tab": "Volunteer",
+        "link": "/volunteer"
+      },
+      {
+        "id":"10",
+        "Tab": "Sponsors",
+        "link": "/sponsors"
+      },
+      {
+        "id":"11",
+        "Tab": "Media",
+        "link": "/media"
+      },
+      {
+        "id":"12",
+        "Tab": "Privacy Policy",
+        "link": "/privacypolicy"
+      },
+      {
+        "id":"13",
+        "Tab": "Service Agreement",
+        "link": "/serviceaggrement"
+      },
+      {
+        "id":"14",
+        "Tab": "Partners",
+        "link": "/partner"
+      },
+      {
+        "id":"15",
+        "Tab": "Contact",
+        "link": "/contact"
+      }
+    ]
+  }

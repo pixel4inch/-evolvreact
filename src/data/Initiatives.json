@@ -1,0 +1,46 @@
+{
+    "initiatives_list": [
+        {
+            "id": 1,
+            "Title": "ECO-CONNECT PLATFORM",
+            "description": "Our Eco-Connect Platform is designed for innovators to custom configure engagements with Corporates, Venture Capitalists, Angels, Academia, and Governments. Regardless of what stage your startup or scaleup is in, you can curate domain experts best suited to your needs from areas of expertise including strategy, business development, product, engineering, GTM, and other skills. Access a vast pool of global domain experts facilitated through a data-driven, consensual, value-added, online engagement. This online service will launch in September at the Evolve 2024 Deep Tech Summit.",
+            "link": "",
+            "action": "fade-up"
+        },
+        {
+            "id": 2,
+            "Title": "SYNNOVATE ES™ - EARLY-STAGE STARTUPS",
+            "description": "This program supports pre-seed and seed level deep-tech innovators by connecting them to Angel Investor groups and individuals. Participation requires validated IP with POC involving expert due diligence. Expert advisory support can also be pursued.",
+            "link": "/initiatives",
+            "action": "fade-down"
+        },
+        {
+            "id": 3,
+            "Title": "OMNISCALE™ - MID-LATE STAGE SCALEUPS",
+            "description": "We invite startups and scale-ups worldwide to get engaged with our programs. As a registered participant of our global startup community, you will have privileged access to our domain-centric virtual networking programs. Other privileges include automatic application to domain suited Global Top 1000 Rankings (soon to be announced), speaking opportunities, eco-connecting with suited member enterprises, hosting co-branded events, and invitation to our in-person events at discounted insider pricing for in-person events.",
+            "link": "/initiatives",
+            "action": "fade-down"
+        },
+        {
+            "id": 4,
+            "Title": "CORPORATE & INSTITUTIONAL PARTNERS",
+            "description": "We invite institutions supporting innovation ecosystems worldwide - Corporations, Venture Capital Firms, Private Equity Funds, Family Practices, Angel Groups, Incubators, Accelerators, Co-working Facilities, Governments, and providers of Legal, Financial, and other services which can support entrepreneurs, to join forces with us. The Evolve Collective group of like-minded entities can effectively contribute to a global framework while also benefiting partners with branding and goodwill driven by purpose.",
+            "link": "/initiatives",
+            "action": "fade-up"
+        },
+        {
+            "id": 5,
+            "Title": "EVOLVE ANGELS™",
+            "description": "Evolve Angels™ is a syndicate of fully wetted angel investors worldwide. The program will launch later this year with about 200 angles with a proven track-record across multiple domains. We will build this syndicate diligently over time and ensure we deliver great outcomes for both the angels, and the innovators. All deal flows and engagements will be structured to support Synnovate ES™ members worldwide. Participating individual and institutional angels will independently evaluate and score member startups for discrete cross-pollinated syndication or provide founders with valuable feedback on why they decline to invest.",
+            "link": "/initiatives",
+            "action": "fade-down"
+        },
+        {
+            "id": 6,
+            "Title": "DOMAIN EXPERT NETWORK",
+            "description": "Our domain expert network is comprised of Senior Industry Executives, Academia, Venture Capitalists, leaders and key decision makers at Government Trade & Industry Policy, Regional & National Industry Associations, and others [who are involved in promoting innovation or bring latent expertise and influence to a particular domain]. We carefully review their fit and willingness to support suited innovator ecosystems. Recruitment is by invitation. Our experts are located worldwide and come together to support the global innovator community through an online interactive platform. They are invited to in-person, virtual, and hybrid events hosted by Evolve SV and our affiliated entities worldwide. They bring profound knowledge and value to such engagements. ",
+            "link": "/initiatives",
+            "action": "fade-up"
+        }
+    ]
+}

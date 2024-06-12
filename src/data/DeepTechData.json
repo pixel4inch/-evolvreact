@@ -1,0 +1,108 @@
+{
+    "deeptechList": [
+        {
+            "id": 1,
+            "Title": "STARTUPS & SCALE-UPS",
+            "techValues": "731,574",
+            "action": "fade-up"
+        },
+        {
+            "id": 2,
+            "Title": "TECH DOMAINS",
+            "techValues": "80",
+            "link": "/initiatives",
+            "action": "fade-down"
+        },
+        {
+            "id": 3,
+            "Title": "INVESTORS",
+            "techValues": "114,871",
+           
+            "action": "fade-down"
+        },
+        {
+            "id": 4,
+            "Title": "ENTERPRISES",
+            "techValues": "813,545",
+           
+            "action": "fade-up"
+        },
+        {
+            "id": 5,
+            "Title": "VENTURE CAPITAL FIRMS",
+            "techValues": "813,545",
+         
+            "action": "fade-down"
+        },
+        {
+            "id": 6,
+            "Title": "ANGEL GROUPS",
+            "techValues": "5,094",
+           
+            "action": "fade-up"
+        },
+        {
+            "id": 7,
+            "Title": "ACCELERATORS",
+            "techValues": "6,099",
+          
+            "action": "fade-up"
+        },
+        {
+            "id": 8,
+            "Title": "INCUBATORS",
+            "techValues": "3,495",
+           
+            "action": "fade-up"
+        },
+        {
+            "id": 9,
+            "Title": "FAMILY INVESTMENT OFFICES",
+            "techValues": "3,085",
+          
+            "action": "fade-up"
+        },
+        {
+            "id": 10,
+            "Title": "PRIVATE EQUITY FIRMS",
+            "techValues": "26,475",
+          
+            "action": "fade-up"
+        },
+        {
+            "id": 11,
+            "Title": "CORPORATE VENTURE CAPITAL FIRMS",
+            "techValues": "3,730",
+          
+            "action": "fade-up"
+        },
+        {
+            "id": 12,
+            "Title": "INFLUENCERS",
+            "techValues": "4,875,331",
+          
+            "action": "fade-up"
+        },
+        {
+            "id": 13,
+            "Title": "CII MEMBERS",
+            "techValues": "6,962",
+          
+            "action": "fade-up"
+        },
+        {
+            "id": 14,
+            "Title": "MEDIA",
+            "techValues": "22,069",
+           
+            "action": "fade-up"
+        },
+        {
+            "id": 15,
+            "Title": "ACADEMIA",
+            "techValues": "13,744",
+            "action": "fade-up"
+        }
+    
+    ]
+}

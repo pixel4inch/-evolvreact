@@ -1,0 +1,54 @@
+{
+    "byleadership": [
+        {
+            "id": 1,
+            "Message": "Over the next 5 years AI will change everything in business and industry. Unbound opportunities on the horizon. Want a piece of the $13+ trillion pie by 2030? Enterprise stakes are high and unrelenting. Many of today's top brands risk extinction. AI-preparedness is the ultimate survival and opportunity kit. Evolve! ",
+            "Leader": "Ram K Reddy"
+        },
+        {
+            "id": 2,
+            "Message": "The pace of innovation will skyrocket over the next decade. Where will you be when it all happens? Lead with insight and not hindsight. Be the early bird and drive the new evolution as it happens. ",
+            "Leader": " Rajan Navani"
+        },
+        {
+            "id": 3,
+            "Message": "India Inflect - We are living in one of history's most transformative times. Nations and their enterprises are competing for an AI edge. AI will soon do a hard reset on global industry. India presents the fastest growing market opportunity ripe with boundless opportunity. Jump on the bandwagon or be left out forever. We will assist. Simply Evolve.",
+            "Leader": "Chandrajit Banerjee"
+        }
+
+    ],
+
+    
+    "byothers": [
+        {
+            "id": 1,
+            "Message": " AI is in a very early stage of development. I think people will be surprised at the level of progress we are going to see. And I feel like we scratched the tip of the iceberg. ",
+            "Leader": "Sundar Pichai"
+        },
+        {
+            "id": 2,
+            "Message": "The next industrial revolution has begun – AI will be the most transformative technology of the 21st century. It will affect every industry and aspect of our lives. ",
+            "Leader": "Jensen Huang"
+        },
+        {
+            "id": 3,
+            "Message": "Artificial intelligence, deep learning, machine learning - whatever you’re doing if you don’t understand it, learn it. Because otherwise, you’re going to be a dinosaur within three years. ",
+            "Leader": "Mark Cuban"
+        },
+        {
+            "id": 4,
+            "Message": "This next generation of AI will reshape every software category and every business, including our own. Although this new era promises great opportunity, it demands even greater responsibility from companies like ours.",
+            "Leader": "Satya Nadella"
+        },
+        {
+            "id": 5,
+            "Message": "Artificial intelligence has the potential to democratize access to education, healthcare and economic opportunities. Let's strive to make AI technology accessible and beneficial for all. ",
+            "Leader": "Rana el Kaliouby"
+        },
+        {
+            "id": 6,
+            "Message": "As artificial intelligence evolves, we must remember that its power lies not in replacing human intelligence, but in augmenting it. The true potential of AI lies in its ability to amplify human creativity and ingenuity. ",
+            "Leader": " Ginni Rometty"
+        }
+    ]
+}

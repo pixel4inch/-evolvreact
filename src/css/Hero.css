@@ -1,0 +1,317 @@
+/*===============
+    Hero Section
+=================*/
+.hero_section {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(https://evolvesv.org/images/evolv/hero_page/2.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: calc(100vh - 75px) !important;
+    /* height: 720px; */
+    opacity: 1;
+    visibility: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+    z-index: 0;
+}
+
+.hero_section::before, .hero_section.profile:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_section h1 {
+    font-weight: 900;
+    font-size: 45px;
+    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    color: #ff9921;
+    text-align: center;
+}
+
+.hero_section h4 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: #fff;
+    text-align: center;
+    width: 753px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom:15px;
+}
+
+@media (max-width: 991px) {
+
+    .hero_section h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .hero_section h4 {
+        font-size: 20px;
+        width:570px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    
+    .hero_section h1 {
+        font-size: 38px;
+        line-height:38px !important;
+        
+    }
+
+    .hero_section h4 {
+       
+        font-size:17px;
+        width: 480px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    /* .hero_section {
+        height: auto;
+        padding: 40px 20px !important;
+    }*/
+    .hero_section h1 {
+        font-size: 32px;
+        line-height:35px;
+    }
+
+    .hero_section h4 {
+        font-size: 15px;
+        width: 100%;
+        padding: 5px 20px;
+        margin-top: 0px;
+    }
+
+
+   
+}
+
+
+/* SLIDE CSS */
+
+.owl-stage .owl-item .item {
+    border-radius: 20px !important;
+    overflow: hidden;   
+}
+
+.owl-stage .owl-item .item img{
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    opacity: 0.8;
+    border-radius: 20px !important;
+   
+}
+
+.owl-stage .owl-item.active.center .item img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    opacity: 1;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero_section.profile {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: calc(100vh - 75px);
+    opacity: 1;
+    visibility: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+
+.hero_section.profile .container {
+    z-index: 999;
+}
+
+.hero_section.profile h1 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: normal;
+    margin: 0;
+    color: #ff9921;
+    text-align: left;
+    line-height: normal;
+    font-weight: 700;
+    padding-left: 30px;
+    display: block;
+    position: relative;
+}
+
+.hero_section.profile h1::before {
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #ff9921;
+}
+
+.hero_section.profile h1 span {
+    font-weight: 900;
+    color: #ffd4a2
+}
+
+
+
+.hero_section.profile p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 100px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    padding-left: 30px;
+    padding-right: 100px;
+    display: block;
+
+
+}
+
+.hero_section.profile p a {
+    color: #ff2128
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+    .hero_section.profile {
+        height: auto;
+    }
+
+    .hero_section.profile h1 {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    .hero_section.profile p {
+        font-size: 19px;
+        padding-left: 20px;
+        padding-right: 0px
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+
+    .hero_section.profile h1::before {
+        content: '';
+        width: 0px;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: #ff9921;
+    }
+
+
+
+
+}
+
+.hero_section h2.bannertagline {
+    font-size: 23.2px;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero_section #map {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.4;
+    cursor: none;
+}
+
+.hero_section .jvm-zoom-btn {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

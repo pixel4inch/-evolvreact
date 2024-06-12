@@ -1,0 +1,145 @@
+@import url(./color.css);
+
+/*============
+    TABS
+=============*/
+
+#tabs ul.nav-tabs{
+    width: 100%;
+    margin: 0 auto;
+    background: var(--fourthcolor);
+    border-radius: 40px !important;
+    border: rgba(0,0,0,0.2) solid 1px;
+}
+
+#tabs ul.nav-tabs li a.active   {
+    border-radius: 40px;
+    background-color: var(--maincolor) !important;
+    position: relative;
+
+}
+
+#tabs ul.nav-tabs li a.active::after {
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--maincolor) !important;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+
+
+  @media (max-width: 767px) {
+    #tabs ul.nav-tabs li {
+      border-radius: 0rem !important;
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+    #tabs ul.nav-tabs li .nav-link {
+      border-radius: 0rem !important;
+    }
+
+    #tabs ul.nav-tabs{
+        width: 100%;
+        margin: 0 auto;
+        background: var(--fourthcolor);
+        border-radius: 0px !important;
+        border: rgba(0,0,0,0.2) solid 1px;
+        box-shadow: none !important;
+    }
+  }
+  
+
+  
+  /*================================
+        Newplace keeper
+  =================================*/
+
+  .newplacekeeper img{
+     width: 20%;
+     margin: 0px;
+     height: auto;
+     padding: 0px;
+     filter: grayscale(100%);
+     opacity: 0.2;
+  }
+
+
+  .newplacekeeper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 470px;
+    overflow: hidden;
+    position: relative;
+    background: #04489B
+  }
+
+  .newplacekeeper::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(17,99,117,0.9);
+    opacity:0.2;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+  }
+
+    
+/*===============================
+          profile pic upload
+===============================*/
+
+.profile-pic {
+  width: 200px;
+  max-height: 200px;
+  display: inline-block;
+}
+
+.file-upload {
+  display: none;
+}
+.circle {
+  border-radius: 100% !important;
+  overflow: hidden;
+  width: 128px;
+  height: 128px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  top: 72px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.p-image {
+position: relative;
+margin-top: -42px;
+    margin-left: 60px;
+color: #666666;
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+font-size: 1.2em;
+}
+
+.p-image i {
+
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.upload-button:hover {
+transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+color: #999;
+}
