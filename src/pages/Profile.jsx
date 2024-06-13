@@ -25,7 +25,7 @@ const LeaderComp = ({ data, title }) => {
         <div className="row">
           {data.map((value, index) => (
             <div className="col-lg-4 col-md-4 col-sm-4 col-12 my-3" key={index} data-aos="fade-up" data-aos-duration={duration}>
-              <ImgCard imgData={value.pic} alt={value.name} nameData={value.name} designationData={value.designation} companyData={value.company} />
+              <ImgCard imgData={value.img_path} alt={value.FullName} nameData={value.FullName} designationData={value.Designation} companyData={value.Company} />
             </div>
           ))}
         </div>
@@ -95,8 +95,8 @@ function Profile() {
                                 </div>
                             </div>
                             <div>
-                                <LeaderComp data={LeaderData.COCHAIRS} title="FOUNDERS" />
-                                <LeaderComp data={LeaderData.ADVISORYCOUNCIL} title="ADVISORY BOARD" />
+                                <LeaderComp data={LeaderData} title="FOUNDERS" />
+                               
                             </div>
                     </div>
             </section>
