@@ -23,7 +23,8 @@ const LeaderComp = ({ data, title }) => {
           <SectionTitle title1={title} />
         </div>
         <div className="row">
-          {data.map((value, index) => (
+          {
+            data.map((value, index) => (
             <div className="col-lg-4 col-md-4 col-sm-4 col-12 my-3" key={index} data-aos="fade-up" data-aos-duration={duration}>
               <ImgCard imgData={value.img_path} alt={value.FullName} nameData={value.FullName} designationData={value.Designation} companyData={value.Company} />
             </div>
