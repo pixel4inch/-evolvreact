@@ -13,8 +13,20 @@ function Contact() {
     Phone: ""
   });
 
+  const resetForm = () => {
+    SetUserData({
+      FirstName: "",
+      LastName: "",
+      Position: "",
+      Company: "",
+      Email: "",
+      Phone: ""
+    });
+  };
+
   const submitContactData = async (e) => {
     e.preventDefault();
+    console.log("Submitting data:", UserData);
     try {
       const db = getDatabase(app);
       const newDocRef = push(ref(db, 'evolve/contact'));
@@ -27,10 +39,12 @@ function Contact() {
         Phone: UserData.Phone
       });
       alert("Data Saved");
+      resetForm()
     } catch (error) {
       console.error("Error saving data:", error);
       alert("Error: " + error.message);
     }
+
   };
 
   return (
@@ -105,7 +119,7 @@ function Contact() {
                   </div>
                   <div className="col-sm-6 mb-3 px-1">
                     <input className="form-control w-100 border-radius-0" type="text" maxLength="10" autoComplete='off' value={UserData.Phone} onChange={(e) => SetUserData({...UserData, Phone: e.target.value})} id="Phone" name="Phone" />
-                    <span className="floating-label"> Phone  </span>
+                    <span className="floating-label"> Phone </span>
                   </div>
                   <p className="text-xl-left text-lg-left ml-2 text-md-left text-sm-left text-center mt-0 mandatory-msg">Fields marked <span>*</span> are mandatory</p>
                   <div className="col-12 text-center my-4">

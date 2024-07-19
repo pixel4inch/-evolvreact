@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 function EventcommonStrip() {
     const location = useLocation();
     // Hide this component on the home page
-    if (location.pathname === '/') {
+    if (location.pathname === '/' || location.pathname === '/admin' ) {
       return null;
     }
   

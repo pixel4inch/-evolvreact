@@ -1,6 +1,7 @@
 import './css/style.css';
 import './css/custome.css';
 import './css/form.css';
+import { useState } from 'react';
 
 // PLUGINS
 import { Route, Routes } from "react-router-dom"
@@ -8,17 +9,25 @@ import { Route, Routes } from "react-router-dom"
 // PAGES 
 import {
   Home, Profile, Initiatives, Data, InnovatorSynergies, Sustainability, IndianInfluencer, DiversityEquityInclusion, Calender, Login, Insider, MemberShip, Recognitions, DataDashboard, Volunteer, Sponsors, Media,
-  PrivacyPolicy, ServiceAggrement, Partner, Contact, CalEvents, NextTech, Error, Magic, Forgetpassword, Registration
+  PrivacyPolicy, ServiceAggrement, Partner, Contact, CalEvents, NextTech, Error, Magic, Forgetpassword, Registration, Admin
 } from './pages'
 
 // COMPONENTS
-import { Header, Footer, EventcommonStrip } from './components'
+import { Header, Footer, EventcommonStrip, AdminHeader } from './components'
 
 function App() {
+
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [showFooter, setFooter] = useState(true);
+  const [showAdminNavbar, setAdminNavbar] = useState(false)
+
   return (
     <div className="App h-100">
       <div className='d-flex flex-column h-100'>
-        <Header/>
+        
+        {showNavbar && <Header/>}
+        {showAdminNavbar && <AdminHeader/>}
+
         <EventcommonStrip/>
         <div className='body-content'>
           <Routes>
@@ -48,13 +57,14 @@ function App() {
             <Route path="/Partner" exact element={<Partner />} />
             <Route path="/contact" exact element={<Contact />} />
             <Route path='/registration' exact element={<Registration />} />
+            <Route path='/admin' exact element={<Admin setShowNavbar={setShowNavbar} setAdminNavbar={setAdminNavbar}  setFooter={setFooter}/>}/>  
             {/* ERROR */}
-            <Route path="*" element={<Error />} />
+            <Route path="*" element={<Error/>} />
             {/* INNER PAGES */}
-            <Route path="/calender/calevents/:EventId" exact element={<CalEvents />} />
+            <Route path="/calender/calevents/:EventId" exact element={<CalEvents/>}/>
           </Routes>
         </div>
-        <Footer />
+        {showFooter && <Footer/>}
       </div>
     </div>
   );

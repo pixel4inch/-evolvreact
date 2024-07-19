@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useLayoutEffect } from 'react'
 
 
 //import COMPONENT
 import FooterNav  from "./FooterNav"
 
-function footer() {
+function Footer({setFooter}) {
 
 	const getYear = () => {
 		return new Date().getFullYear();
 	}
 
+	
   return (
     <>
    
@@ -66,4 +68,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer

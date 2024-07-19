@@ -97,7 +97,6 @@ function Profile() {
                             </div>
                             <div>
                                 <LeaderComp data={LeaderData} title="FOUNDERS" />
-                               
                             </div>
                     </div>
             </section>

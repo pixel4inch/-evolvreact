@@ -13,4 +13,5 @@ export {default as Helmet} from './Helmet'
 export {default as ImgCard} from './ImgCard'
 export {default as TextCard} from './TextCard'
 export {default as EventcommonStrip} from './EventcommonStrip'
+export {default as AdminHeader} from './AdminHeader'
 
